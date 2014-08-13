@@ -1,0 +1,35 @@
+test: 
+  - 'jshint'
+
+csjs:
+  - 'coffeelint'
+  - 'coffee'
+
+js:
+  - 'requirejs:mainJS'
+
+css:
+ - 'requirejs:mainCSS'
+
+templates:
+  - 'jade'
+  - 'handlebars'
+  - 'replace:hbs'
+
+build:
+  - 'js'
+  - 'css'
+
+tests:
+  - 'clean:specs'
+  - 'csjs'
+  - 'amd_require_tests'
+
+  
+default:
+  - 'clean:local'
+  - 'csjs'
+
+  - 'templates'
+  - 'build'
+

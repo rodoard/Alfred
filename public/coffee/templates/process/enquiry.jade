@@ -1,0 +1,320 @@
+form.form-horizontal.col-md-12
+  fieldset
+    legend Process Enquiry
+    #message
+    .form-group
+      label.control-label.col-xs-2.required(for='name') Name
+      .col-xs-10
+        input#name.form-control(name='name', type='text', placeholder='')
+
+    .form-group
+      label.control-label.col-xs-2.required(for='email') Email
+      .col-xs-10
+        input#email.form-control(name='email', type='text', placeholder='')
+
+    .form-group
+      label.control-label.col-xs-2.required(for='phone') Phone
+      .col-xs-10
+        input#phone.form-control(name='phone', type='text', placeholder='')
+
+    .form-group
+      label.control-label.col-xs-2(for='nationality') Nationality
+      .col-xs-4
+        select#nationality.form-control(name='nationality')
+          option(value='', selected='selected') Choose a Nationality
+          option(value='Afghan') Afghan
+          option(value='Albanian') Albanian
+          option(value='Algerian') Algerian
+          option(value='American') American
+          option(value='Andorran') Andorran
+          option(value='Angolan') Angolan
+          option(value='Antiguans') Antiguans
+          option(value='Argentinean') Argentinean
+          option(value='Armenian') Armenian
+          option(value='Australian') Australian
+          option(value='Austrian') Austrian
+          option(value='Azerbaijani') Azerbaijani
+          option(value='Bahamian') Bahamian
+          option(value='Bahraini') Bahraini
+          option(value='Bangladeshi') Bangladeshi
+          option(value='Barbadian') Barbadian
+          option(value='Barbudans') Barbudans
+          option(value='Batswana') Batswana
+          option(value='Belarusian') Belarusian
+          option(value='Belgian') Belgian
+          option(value='Belizean') Belizean
+          option(value='Beninese') Beninese
+          option(value='Bhutanese') Bhutanese
+          option(value='Bolivian') Bolivian
+          option(value='Bosnian') Bosnian
+          option(value='Brazilian') Brazilian
+          option(value='British') British
+          option(value='Bruneian') Bruneian
+          option(value='Bulgarian') Bulgarian
+          option(value='Burkinabe') Burkinabe
+          option(value='Burmese') Burmese
+          option(value='Burundian') Burundian
+          option(value='Cambodian') Cambodian
+          option(value='Cameroonian') Cameroonian
+          option(value='Canadian') Canadian
+          option(value='Cape Verdean') Cape Verdean
+          option(value='Central African') Central African
+          option(value='Chadian') Chadian
+          option(value='Chilean') Chilean
+          option(value='Chinese') Chinese
+          option(value='Colombian') Colombian
+          option(value='Comoran') Comoran
+          option(value='Congolese') Congolese
+          option(value='Costa Rican') Costa Rican
+          option(value='Croatian') Croatian
+          option(value='Cuban') Cuban
+          option(value='Cypriot') Cypriot
+          option(value='Czech') Czech
+          option(value='Danish') Danish
+          option(value='Djibouti') Djibouti
+          option(value='Dominican') Dominican
+          option(value='Dutch') Dutch
+          option(value='East Timorese') East Timorese
+          option(value='Ecuadorean') Ecuadorean
+          option(value='Egyptian') Egyptian
+          option(value='Emirati') Emirati
+          option(value='Equatorial Guinean') Equatorial Guinean
+          option(value='Eritrean') Eritrean
+          option(value='Estonian') Estonian
+          option(value='Ethiopian') Ethiopian
+          option(value='Fijian') Fijian
+          option(value='Filipino') Filipino
+          option(value='Finnish') Finnish
+          option(value='French') French
+          option(value='Gabonese') Gabonese
+          option(value='Gambian') Gambian
+          option(value='Georgian') Georgian
+          option(value='German') German
+          option(value='Ghanaian') Ghanaian
+          option(value='Greek') Greek
+          option(value='Grenadian') Grenadian
+          option(value='Guatemalan') Guatemalan
+          option(value='Guinea-Bissauan') Guinea-Bissauan
+          option(value='Guinean') Guinean
+          option(value='Guyanese') Guyanese
+          option(value='Haitian') Haitian
+          option(value='Herzegovinian') Herzegovinian
+          option(value='Honduran') Honduran
+          option(value='Hungarian') Hungarian
+          option(value='I-Kiribati') I-Kiribati
+          option(value='Icelander') Icelander
+          option(value='Indian') Indian
+          option(value='Indonesian') Indonesian
+          option(value='Iranian') Iranian
+          option(value='Iraqi') Iraqi
+          option(value='Irish') Irish
+          option(value='Israeli') Israeli
+          option(value='Italian') Italian
+          option(value='Ivorian') Ivorian
+          option(value='Jamaican') Jamaican
+          option(value='Japanese') Japanese
+          option(value='Jordanian') Jordanian
+          option(value='Kazakhstani') Kazakhstani
+          option(value='Kenyan') Kenyan
+          option(value='Kittian and Nevisian') Kittian and Nevisian
+          option(value='Kuwaiti') Kuwaiti
+          option(value='Kyrgyz') Kyrgyz
+          option(value='Laotian') Laotian
+          option(value='Latvian') Latvian
+          option(value='Lebanese') Lebanese
+          option(value='Liberian') Liberian
+          option(value='Libyan') Libyan
+          option(value='Liechtensteiner') Liechtensteiner
+          option(value='Lithuanian') Lithuanian
+          option(value='Luxembourger') Luxembourger
+          option(value='Macedonian') Macedonian
+          option(value='Malagasy') Malagasy
+          option(value='Malawian') Malawian
+          option(value='Malaysian') Malaysian
+          option(value='Maldivan') Maldivan
+          option(value='Malian') Malian
+          option(value='Maltese') Maltese
+          option(value='Marshallese') Marshallese
+          option(value='Mauritanian') Mauritanian
+          option(value='Mauritian') Mauritian
+          option(value='Mexican') Mexican
+          option(value='Micronesian') Micronesian
+          option(value='Moldovan') Moldovan
+          option(value='Monacan') Monacan
+          option(value='Mongolian') Mongolian
+          option(value='Moroccan') Moroccan
+          option(value='Mosotho') Mosotho
+          option(value='Motswana') Motswana
+          option(value='Mozambican') Mozambican
+          option(value='Namibian') Namibian
+          option(value='Nauruan') Nauruan
+          option(value='Nepalese') Nepalese
+          option(value='New Zealander') New Zealander
+          option(value='Ni-vanuatu') Ni-vanuatu
+          option(value='Nicaraguan') Nicaraguan
+          option(value='Nigerien') Nigerien
+          option(value='North Korean') North Korean
+          option(value='Northern Irish') Northern Irish
+          option(value='Norwegian') Norwegian
+          option(value='Omani') Omani
+          option(value='Pakistani') Pakistani
+          option(value='Palestinian') Palestinian
+          option(value='Palauan') Palauan
+          option(value='Panamanian') Panamanian
+          option(value='Papua New Guinean') Papua New Guinean
+          option(value='Paraguayan') Paraguayan
+          option(value='Peruvian') Peruvian
+          option(value='Polish') Polish
+          option(value='Portuguese') Portuguese
+          option(value='Qatari') Qatari
+          option(value='Romanian') Romanian
+          option(value='Russian') Russian
+          option(value='Rwandan') Rwandan
+          option(value='Lucian') Saint Lucian
+          option(value='Salvadoran') Salvadoran
+          option(value='Samoan') Samoan
+          option(value='Marinese') San Marinese
+          option(value='Tomean') Sao Tomean
+          option(value='Saudi') Saudi
+          option(value='Scottish') Scottish
+          option(value='Senegalese') Senegalese
+          option(value='Serbian') Serbian
+          option(value='Seychellois') Seychellois
+          option(value='Leonean') Sierra Leonean
+          option(value='Singaporean') Singaporean
+          option(value='Slovakian') Slovakian
+          option(value='Slovenian') Slovenian
+          option(value='Solomon Islander') Solomon Islander
+          option(value='Somali') Somali
+          option(value='South African') South African
+          option(value='South Korean') South Korean
+          option(value='Spanish') Spanish
+          option(value='Sri Lankan') Sri Lankan
+          option(value='Sudanese') Sudanese
+          option(value='Surinamer') Surinamer
+          option(value='Swazi') Swazi
+          option(value='Swedish') Swedish
+          option(value='Swiss') Swiss
+          option(value='Syrian') Syrian
+          option(value='Taiwanese') Taiwanese
+          option(value='Tajik') Tajik
+          option(value='Tanzanian') Tanzanian
+          option(value='Thai') Thai
+          option(value='Togolese') Togolese
+          option(value='Tongan') Tongan
+          option(value='Trinidadian or Tobagonian') Trinidadian or Tobagonian
+          option(value='Tunisian') Tunisian
+          option(value='Turkish') Turkish
+          option(value='Tuvaluan') Tuvaluan
+          option(value='Ugandan') Ugandan
+          option(value='Ukrainian') Ukrainian
+          option(value='Uruguayan') Uruguayan
+          option(value='Uzbekistani') Uzbekistani
+          option(value='Venezuelan') Venezuelan
+          option(value='Vietnamese') Vietnamese
+          option(value='Welsh') Welsh
+          option(value='Yemenite') Yemenite
+          option(value='Zambian') Zambian
+          option(value='Zimbabwean') Zimbabwean
+          option(value='(other)') (other)
+
+    .form-group
+      label.control-label.col-xs-2(for='dob') Date of Birth
+      .col-xs-10
+        input#dob.form-control(name='dob', type='text', placeholder='')
+
+    .form-group
+      label.control-label.col-xs-2(for='years_uae_drivers_license') UAE license held for
+      .col-xs-10
+        input#years_uae_drivers_license.form-control(name='years_uae_drivers_license', type='text', placeholder='')
+          option(value='', selected='selected') Please Choose
+          option(value='less than 6 months') less than 6 months
+          option(value='less than one year') less than 1 year
+          option(value='1 year') 1 year
+          option(value='2 years') 2 years
+          option(value='3 years') 3 years
+          option(value='4 years') 4 years
+          option(value='5 years') 5 years
+          option(value='6 years') 6 years
+          option(value='7 years') 7 years
+          option(value='8 years') 8 years
+          option(value='9 years') 9 years
+          option(value='10 years') 10 years
+          option(value='11 years') 11 years
+          option(value='12 years') 12 years
+          option(value='13 years') 13 years
+          option(value='14 years') 14 years
+          option(value='15 years') 15 years
+          option(value='16 years') 16 years
+          option(value='17 years') 17 years
+          option(value='18 years') 18 years
+          option(value='19 years') 19 years
+          option(value='20 years +') 20 years +
+
+    .form-group
+      label.control-label.col-xs-2(for='car') Car
+      .col-xs-10
+        input#car.form-control(name='car', type='text', placeholder='')
+
+    .form-group
+      label.control-label.col-xs-2(for='car_year_manufacture') Year of manufacture
+      .col-xs-4
+        select#car_year_manufacture.form-control(name='car_year_manufacture')
+          option(value='', selected='selected') Please Choose
+          option(value='2015') 2015
+          option(value='2014') 2014
+          option(value='2013') 2013
+          option(value='2012') 2012
+          option(value='2011') 2011
+          option(value='2010') 2010
+          option(value='2009') 2009
+          option(value='2008') 2008
+          option(value='2007') 2007
+          option(value='2006') 2006
+          option(value='2005') 2005
+          option(value='2004') 2004
+          option(value='2003') 2003
+          option(value='2002') 2002
+          option(value='2001') 2001
+          option(value='2000') 2000
+          option(value='1999') 1999
+          option(value='1998 or older') 1998 or older
+
+    .form-group
+      label.control-label.col-xs-2(for='car_value') Car value
+      .col-xs-10
+        input#car_value.form-control(name='car_value', type='text', placeholder='')
+
+    .form-group
+      label.control-label.col-xs-2(for='car_insurance_company') Currently with
+      .col-xs-10
+        input#car_insurance_company.form-control(name='car_insurance_company', type='text', placeholder='')
+
+    .form-group
+      label.control-label.col-xs-2(for='claims_history') Claims history
+      .col-xs-4
+        select#claims_history.form-control(name='claims_history')
+          option(value='', selected='selected') Please Choose
+          option(value='No claims in the past year') No claims in the past year
+          option(value='No claims for 2 years') No claims for 2 years
+          option(value='No claims for 3 years') No claims for 3 years
+          option(value='No claims for 4 years') No claims for 4 years
+          option(value='No claims for 5+ years') No claims for 5+ years
+          option(value='I claimed last year') I claimed last year
+          option(value='This is my very first car ever!') This is my very first car ever!
+
+    .form-group
+      label.control-label.col-xs-2(for='urgent')
+      .col-xs-10
+        label.checkbox.inline(for='urgent')
+          input#urgent.col-xs-offset-2(type='checkbox', name='urgent', value='This is urgent. I need car insurance right now!')
+          | This is urgent. I need car insurance right now!
+
+    .form-group
+      label.control-label.col-xs-2(for='promo_code') Promo code
+      .col-xs-10
+        input#promo_code.input-mini(name='promo_code', type='text', placeholder='')
+
+    div.form-group
+      div.col-xs-offset-2.col-xs-10
+        button#submit.btn.btn-primary(type='submit') Lets Compare Car Insurance!

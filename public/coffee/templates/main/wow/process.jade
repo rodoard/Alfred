@@ -1,0 +1,7 @@
+include ../../helpers/underscore
+- columns = ["name", "email", "nationality", "dob", "car"]
+tr
+  each column in columns
+    td {{#{column}}}
+  td
+    button(type="button", class="btn btn-primary") Process
